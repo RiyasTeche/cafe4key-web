@@ -1,0 +1,69 @@
+.heroMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  height: 60%;
+}
+
+.heroContainer {
+  flex: 1;
+  height: 600px;
+  width: 50%;
+  position: relative;
+}
+
+
+.heroLinkContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.linksContainer {
+  margin-top: 6px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.linksContainer h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.linksContainer p {
+  color: var(--letterColor2);
+  margin: 16px 0px;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.awardList {
+  display: flex;
+  gap: 8px;
+}
+
+.awardList img {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.container3d{
+
+  width:600px;
+  height:600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

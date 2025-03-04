@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primaryColor: #1877f2;
+  --secondaryColor: #1877f2;
+  --bgPrimary: #02222e;
+  --bgSecondary: #0f340a;
+  --letterColor1: white;
+  --letterColor2: #dbc1ac;
+}
+
+body {
+  background: linear-gradient(to bottom, var(--bgPrimary), var(--bgSecondary));
+  font-family: "Montserrat", sans-serif;
+  color: var(--letterColor1);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color:var(--letterColor1);
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+.container {
+  max-width: 1100px;
+  padding-left: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+section:nth-child(1) {
+  width: 100vw;
+}
+
+
+@media (min-width: 330px) {
+  .container {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
