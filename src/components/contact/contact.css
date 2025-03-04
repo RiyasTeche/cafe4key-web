@@ -74,6 +74,19 @@ form span{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 255, 255, 0.212);
   margin-top: 20px;
+}
+
+.footerWrapper{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: var(--bgPrimary);
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.footerWrapper span{
+  font-size: 11px;
+  font-weight: 400;
 }

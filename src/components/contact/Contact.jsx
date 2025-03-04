@@ -4,6 +4,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser"; // for sending email with email js
 import { useState } from "react";
 import Map from "./Map";
+import Footer from "./Footer";
 
 const Contact = () => {
   const form = useRef();
@@ -77,7 +78,9 @@ const Contact = () => {
           <Map />
         </div>
       </div>
-      <div className="footer">footer</div>
+      <div className="footer">
+        <Footer/>
+      </div>
     </div>
   );
 };
