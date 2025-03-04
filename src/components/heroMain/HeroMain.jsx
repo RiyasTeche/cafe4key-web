@@ -1,17 +1,19 @@
 import "./heroMain.css";
 import Speech from "../../components/speech/Speech";
-import BurgerModelContainer from "./burger/BurgerModelContainer";
+//import BurgerModelContainer from "./burger/BurgerModelContainer";
 
 import Model3d from "../../components/model3d/Model3d";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
+import PizzaModelContainer from "./pizza/PizzaModelContainer";
 
 const HeroMain = () => {
   return (
     <>
       <div className="heroMain">
         <div className="heroContainer">
-          <BurgerModelContainer />
+          {/* <BurgerModelContainer /> */}
+          <PizzaModelContainer/>
           <div className="container3d">
             <Canvas>
               <Suspense fallback="Loading..">
