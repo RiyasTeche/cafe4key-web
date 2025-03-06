@@ -10,7 +10,7 @@ const BurgerModelContainer = () => {
         <Stage environment="city" intensity={0.5}>
           <BurgerModel />
         </Stage>
-        <OrbitControls enableZoom={false} autoRotate/>
+        <OrbitControls enableZoom={false} />
         <PerspectiveCamera position={[-1,0,5]} zoom={0.9} makeDefault/>
       </Suspense>
     </Canvas>

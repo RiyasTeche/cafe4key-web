@@ -14,8 +14,8 @@ html {
   --secondaryColor: #1877f2;
   --bgPrimary: #02222e;
   --bgSecondary: #0f340a;
-  --letterColor1: white;
-  --letterColor2: #dbc1ac;
+  --letterColor1: #dbc1ac;
+  --letterColor2:  #1877f2;
 }
 
 body {
@@ -30,13 +30,14 @@ a {
   color:var(--letterColor1);
 }
 
-::-webkit-scrollbar { 
-  display: none; 
-}
+ ::-webkit-scrollbar { 
+ height: 0px; /* Chrome, Safari */
+ display: none; /* Hide scrollbar */
+} 
 
 .container {
-  max-width: 1100px;
-  padding-left: 65px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,23 +55,35 @@ section:nth-child(1) {
 @media (min-width: 330px) {
   .container {
     max-width: 330px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 477px) {
+  .container {
+    max-width: 477px;
+    padding-left: 15px;
   }
 }
 
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
+    padding-left: 20px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 15px;
+    padding-right: 20px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
+    padding-left: 50px;
     max-width: 1024px;
   }
 }

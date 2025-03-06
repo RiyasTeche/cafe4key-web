@@ -7,8 +7,8 @@ const Introduction = () => {
     <div className="introduction">
       {/* TITLE */}
       <div className="title">
-        {/* <h1>Flavor Feast: Pizza, Burgers, More!</h1> */}
-        <h1> <TypeAnimation
+        <h1 className="textHeader">Flavor Feast: Pizza, Burgers, More!</h1>
+        <h1 className="typeHeader"> <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
             "Flavour Feast: Pizza,Burgers,More!",
@@ -28,7 +28,6 @@ const Introduction = () => {
           ]}
           wrapper="span"
           speed={2}
-          style={{color:"white"}}
           deletionSpeed={10}
           repeat={Infinity}
         /></h1>

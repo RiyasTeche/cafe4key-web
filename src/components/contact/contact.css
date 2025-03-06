@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .top {
   display: flex;
   height: 70%;
@@ -75,6 +76,7 @@ form span{
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  color: gray;
 }
 
 .footerWrapper{
@@ -89,4 +91,25 @@ form span{
 .footerWrapper span{
   font-size: 11px;
   font-weight: 400;
+}
+
+
+@media (max-width: 1024px) {
+  .top {
+    gap: 35px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 766px) {
+  .top {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 643px) {
+  .top {
+    gap: 5px;
+  }
+ 
 }

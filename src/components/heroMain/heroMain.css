@@ -1,5 +1,6 @@
 .heroMain {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 5px;
@@ -8,8 +9,8 @@
 
 .heroContainer {
   flex: 1;
-  height: 600px;
-  width: 50%;
+  height: 150px;
+  width: 100%;
   position: relative;
 }
 
@@ -17,6 +18,7 @@
 .heroLinkContainer {
   flex: 1;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 5px;
 }
@@ -29,12 +31,12 @@
 }
 
 .linksContainer h2 {
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .linksContainer p {
-  color: var(--letterColor2);
+  color: gray;
   margin: 16px 0px;
   margin-top: 15px;
   font-size: 13px;
@@ -50,7 +52,7 @@
   width: 36px;
   height: 36px;
   padding: 8px;
-  background-color: white;
+  background-color: var(--letterColor1);
   border-radius: 100%;
   cursor: pointer;
 }

@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 
 import { PizzaModel } from "./PizzaModel";
-import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
+import { PerspectiveCamera, Stage } from "@react-three/drei";
 
 const PizzaModelContainer = () => {
   return (
