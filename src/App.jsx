@@ -16,7 +16,7 @@ function App() {
           </section>
         </LazyLoad>
       </Suspense>
-      <Suspense fallback="Loading...">
+      {/* <Suspense fallback="Loading...">
         <LazyLoad height={"700vh"} offset={-100}>
           <Menu />
         </LazyLoad>
@@ -27,7 +27,7 @@ function App() {
             <Contact />
           </section>
         </LazyLoad>
-      </Suspense>
+      </Suspense> */}
     </div>
   );
 }
