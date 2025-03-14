@@ -8,9 +8,6 @@
   overflow: hidden;
 }
 
-@media (min-width: 330px) {
-}
-
 @media (min-width: 477px) {
 
   .numberWrapper span {
@@ -24,7 +21,8 @@
   }
 
   .heroContainer {
-    height: 600px
+    height: 600px;
+    width: 100vw;
   }
 
 }

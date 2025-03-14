@@ -10,7 +10,6 @@ import PizzaTwoModelContainer from "./pizzaTwo/PizzaTwoModelContainer";
 
 const HeroMain = () => {
   const dayNumber = new Date().getDate();
-
   return (
     <>
       <div className="heroMain">
