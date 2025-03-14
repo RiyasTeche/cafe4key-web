@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "img": "/p1.jpeg",
+      "img": "./p1.jpeg",
       "title": "PIZZA",
       "desc": "4Key Café’s Special Pizza fuses Indian and Italian flavors, available in veg and non-veg varieties.",
       "startingPrice": "₹149*",
@@ -38,7 +38,7 @@
     },
     {
       "id": "2",
-      "img": "/p2.jpeg",
+      "img": "./p2.jpeg",
       "title": "BURGER",
       "desc": "Special Burgers blend unique veggies and flavors, available in delicious veg and non-veg options.",
       "startingPrice": "₹69*",
@@ -64,7 +64,7 @@
     },
     {
       "id": "3",
-      "img": "/p3.jpeg",
+      "img": "./p3.jpeg",
       "title": "SANDWICH",
       "desc": "A delicious special sandwich loaded with fresh veggies, available in both veg and non-veg options, packed with flavor and goodness!",
       "startingPrice": "₹70*",
@@ -85,7 +85,7 @@
     },
     {
       "id": "4",
-      "img": "/p4.jpeg",
+      "img": "./p4.jpeg",
       "title": "PASTA",
       "desc": "A flavorful special pasta with Italian, Indian, and Mexican tastes, available in veg and non-veg options, offering a delicious fusion experience!",
       "startingPrice": "₹170*",
@@ -104,7 +104,7 @@
     },
     {
       "id": "5",
-      "img": "/p5.jpeg",
+      "img": "./p5.jpeg",
       "title": "GARLIC BREAD",
       "desc": "Delicious special stuffed garlic bread with a variety of flavors, filled with cheese and tasty veg or non-veg toppings for a perfect bite!",
       "startingPrice": "₹149*",
@@ -121,7 +121,7 @@
     },
     {
       "id": "6",
-      "img": "/p6.jpeg",
+      "img": "./p6.jpeg",
       "title": "SNACKS",
       "desc": "Delightful special snacks to enrich your coffee, featuring a variety of flavors, cheese-filled goodness, and tasty veg or non-veg toppings!",
       "startingPrice": "₹89*",

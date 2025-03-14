@@ -1,7 +1,7 @@
 import "./menu.css";
 
 import { useEffect, useRef, useState } from "react";
-import { motion, useInView, useScroll, useTransform } from "motion/react";
+import { motion , useInView, useScroll, useTransform } from "motion/react";
 
 import MenuItems from "../../Menu.json";
 
@@ -37,9 +37,7 @@ const MenuItem = ({ item }) => {
       >
         <img src={item.img} alt="" />
       </motion.div>
-      <div
-        className="pText"
-      >
+      <div className="pText">
         <h1>
           {item.title}
           {item?.startingPrice && (
@@ -70,7 +68,6 @@ const MenuItem = ({ item }) => {
 };
 
 const Menu = () => {
-  
   const ref = useRef(null);
   //For removing progress bar checking in view or not
   const isInView = useInView(ref, { margin: "-100px" });
@@ -101,9 +98,7 @@ const Menu = () => {
     return () => {
       window.removeEventListener("resize", calculateDistance);
     };
-
   }, []);
-
 
   return (
     <div className="menu" ref={ref}>
@@ -125,8 +120,11 @@ const Menu = () => {
       <section />
       <section />
       <section />
-      <div className="mProgress" style={ isInView ? { display:"block"}:{display:"none"}}>
-      <svg width="100%" height="100%" viewBox="0 0 160 160">
+      <div
+        className="mProgress"
+        style={isInView ? { display: "block" } : { display: "none" }}
+      >
+        <svg width="100%" height="100%" viewBox="0 0 160 160">
           <circle
             cx="80"
             cy="80"
