@@ -1,7 +1,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export function PizzaModel(props) {
-  const { nodes, materials } = useGLTF('/pizzaModel.glb')
+  const { nodes, materials } = useGLTF('./pizzaModel.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.555}>
@@ -17,4 +17,4 @@ export function PizzaModel(props) {
   )
 }
 
-useGLTF.preload('/pizzaModel.glb')
+useGLTF.preload('./pizzaModel.glb')

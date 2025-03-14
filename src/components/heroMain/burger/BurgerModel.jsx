@@ -1,7 +1,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export function BurgerModel(props) {
-  const { nodes, materials } = useGLTF('/burgerModel.glb')
+  const { nodes, materials } = useGLTF('./burgerModel.glb')
   return (
     <group {...props} dispose={null}>
       <group scale={0.01}>
@@ -26,4 +26,4 @@ export function BurgerModel(props) {
   )
 }
 
-useGLTF.preload('/burgerModel.glb')
+useGLTF.preload('./burgerModel.glb')

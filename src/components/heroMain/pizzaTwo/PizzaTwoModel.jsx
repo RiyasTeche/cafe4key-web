@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function PizzaTwoModel(props) {
-  const { nodes, materials } = useGLTF('/pizzaTwoModel.glb')
+  const { nodes, materials } = useGLTF('./pizzaTwoModel.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials['Material.003']} position={[-0.02, -0.011, 0.684]} scale={0.401} />
@@ -37,4 +37,4 @@ export function PizzaTwoModel(props) {
   )
 }
 
-useGLTF.preload('/pizzaTwoModel.glb')
+useGLTF.preload('./pizzaTwoModel.glb')

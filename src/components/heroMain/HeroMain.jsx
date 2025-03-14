@@ -40,19 +40,19 @@ const HeroMain = () => {
                 href="https://www.instagram.com/hunger_hackers_bangalore/"
                 target="_blank"
               >
-                <img src="/award1.png" alt="instagram" title="instagram" />
+                <img src="./award1.png" alt="instagram" title="instagram" />
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61571142942873"
                 target="_blank"
               >
-                <img src="/award2.png" alt="facebook" title="facebook" />
+                <img src="./award2.png" alt="facebook" title="facebook" />
               </a>
               <a
                 href="https://maps.app.goo.gl/J2vgbDP1oh5Q6FgE6?g_st=iwb"
                 target="_blank"
               >
-                <img src="/award3.png" alt="Location" title="Locate Us" />
+                <img src="./award3.png" alt="Location" title="Locate Us" />
               </a>
             </div>
           </div>
