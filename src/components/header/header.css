@@ -9,62 +9,60 @@
 
 .logoContainer {
   display: flex;
-  align-items: center ;
+  align-items: center;
   gap: 8px;
   font-size: 18px;
-  font-weight:600;
-  color:  var(--letterColor1);
+  font-weight: 600;
+  color: var(--letterColor1);
 }
 
 .logoContainer img {
   height: 25px;
   width: 25px;
-
   border-radius: 100%;
-    object-fit: cover;
-    background-color:var(--primaryColor);
+  object-fit: cover;
+  background-color: var(--primaryColor);
 }
 
-.downloadConatiner{
-    display: flex;
-    align-items: center;
-    gap: 6px;
+.downloadConatiner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.downloadConatiner button{
-    width: max-content;
-    padding: 6px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight:600;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
+.downloadConatiner button {
+  width: max-content;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
 
-
-.downloadConatiner a:nth-child(1) button:hover{
-  background-color:var(--primaryColor);
+.downloadConatiner a:nth-child(1) button:hover {
+  background-color: var(--primaryColor);
   color: gainsboro;
 }
 
-.downloadConatiner a:nth-child(2) button{
+.downloadConatiner a:nth-child(2) button {
   background-color: var(--primaryColor);
-  color:gainsboro;
+  color: gainsboro;
   padding-left: 22px;
   padding-right: 22px;
 }
 
-.downloadConatiner a:nth-child(2) button:hover{
+.downloadConatiner a:nth-child(2) button:hover {
   background-color: gainsboro;
-  color:var(--primaryColor);
+  color: var(--primaryColor);
 }
 
-
 @media (max-width: 640px) {
-    .downloadConatiner a:nth-child(2) button,.logoContainer span{
-       display: none;
-    }
+  .downloadConatiner a:nth-child(2) button,
+  .logoContainer span {
+    display: none;
   }
+}

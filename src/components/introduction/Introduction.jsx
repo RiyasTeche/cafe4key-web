@@ -32,7 +32,7 @@ const Introduction = () => {
           repeat={Infinity}
         /></h1>
         <div className="numberWrapper">
-          <img src="/public/whatsapp.png" alt="" />
+          <img src="./whatsapp.png" alt="" />
           <span>📞 +91 7994 422 644</span>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Hero = () => {
         {/* NAVBAR */}
         {/* <Navbar/> */}
         {/* HOME SECTION */}
-        {/* <HeroMain /> */}
+        <HeroMain />
       </div>
     </>
   );
