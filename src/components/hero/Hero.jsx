@@ -11,7 +11,7 @@ const Hero = () => {
         {/* HEADER */}
         <Header />
         {/* INTRODUCTION */}
-        {/* <Introduction /> */}
+        <Introduction />
         {/* NAVBAR */}
         {/* <Navbar/> */}
         {/* HOME SECTION */}
